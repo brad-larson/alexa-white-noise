@@ -1,0 +1,16 @@
+{
+  "name": "alexa-white-noise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An Alexa skill that plays white noise all night",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "bash scripts/build.sh",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

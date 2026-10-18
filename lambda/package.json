@@ -1,0 +1,11 @@
+{
+  "name": "alexa-white-noise",
+  "version": "1.0.0",
+  "description": "Alexa skill Lambda — white noise audio player",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "engines": {
+    "node": ">=20"
+  }
+}
